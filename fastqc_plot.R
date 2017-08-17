@@ -22,7 +22,8 @@ qc <- qc_read("data/DrPrashQCReport/fungal.fasta_fastqc.zip")
 
 
 # Basic statistic 
-qc_plot(qc, "Basic Statistics")
+qc_plot(qc, "Basic Statistics")    
+
 
 # Plot per sequence GC content
 qc_plot(qc, "Per sequence GC content")
