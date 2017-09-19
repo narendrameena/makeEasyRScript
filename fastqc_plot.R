@@ -31,6 +31,9 @@ qc_plot(qc, "Per sequence GC content")
 qc_plot(qc, "Per base sequence quality")
 
 
+"Per sequence GC content"
+qc_plot(qc, "Per sequence GC content")
+
 # Per sequence quality scores
 qc_plot(qc, "Per sequence quality scores")
 
